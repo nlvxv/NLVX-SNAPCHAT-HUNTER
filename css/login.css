@@ -143,23 +143,7 @@
     background-color: #027bde;
   }
 
-  /* Back Button */
-  .back-button {
-    position: absolute;
-    top: 12px;
-    left: 10px;
-    background-color: transparent;
-    border: none;
-    font-size: 16px;
-    color: #55ccffd0;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-  }
-
-  .back-button:hover {
-    color: #027bde;
-  }
+  
   .incorrect {
 color: red;
 display: none;
